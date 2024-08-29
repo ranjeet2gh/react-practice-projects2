@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  background-color: #61dafb;
+  min-width: 500px;
+  max-width: 700px;
+  
+}
+.todolist{
+  font-size: 30px;
+}
+.activitylist{
+  border-style: solid;
+  border-color: white;
+  background-color:white;
+  margin:20px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+ 
+
+ 
+
+.header {
+      
+     display: flex;
+     justify-content: center;
+  
+}
+
+
+ 

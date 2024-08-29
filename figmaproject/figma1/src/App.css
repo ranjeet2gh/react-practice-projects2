@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  max-width: 100vw !important;
+}
+
+.sidebar {
+  width: 7.4rem;
+  position: fixed;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  box-shadow: 0 1rem 10px #67a9e5;
+  overflow-y: auto;
+}
+
+.main-content {
+  height: 100vh;
+  margin-left: 0rem;
+  overflow-y: scroll;
+  background-color: #d9f1ff;
+}
+
+.c-bShadow {
+  box-shadow: 0 1rem 10px #d9f1ff;
+}
+
+.tColB {
+  color: #67a9e5;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+@media only screen and (min-width: 992px) {
+  .main-content {
+    margin-left: 7.4rem;
+  }
+}
